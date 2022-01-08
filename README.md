@@ -64,6 +64,12 @@ python3 -m flask run
 
 9. Verify you can access the predictor service using your web browser by navigating to the predictor at: [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
 
+10. Run the tests you have written in the tests.py file
+
+```sh
+python3 -m unittest apps/tests.py
+```
+
 ## FAQ
 * If you run into any issues with installing Python 3 or running the code itselfon a Mac, you may need to uninstall and reinstall xcode to get the latest version.  Some instructions for how to do so are [here](https://inthetechpit.com/2019/12/31/how-to-clean-uninstall-xcode-on-mac/).
 * If you run into any issues with using scikit-learn after you install it (especially on a Mac with an m1 chip), try uninstalling and reinstalling numpy ```sh
