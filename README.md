@@ -1,3 +1,19 @@
+# Overview
+
+The ability to dive into an unknown code base and be productive immediately is an extremely valuable skill for software engineers.  One of the best ways to get acquainted with a new code base is to try to fix a bug: fixing a bug requires that the engineer be able to identify the actual bug and reproduce it, localize that bug using a debugging methodology, identify why the bug is occurring, and resolve that bug.
+
+In this assignment, you will be provided with a version of the microblog that contains a bug that is causing users of the microblog trouble with using the service. You've received several bug reports, but these bugs reports vary.
+
+1. Some of the users are reporting problems with logging into the site after changing their passwords.
+2. Some of the users are reporting problems with logging into the site from a new computer.
+3. Observability metrics, however, show that many of the users are still able to use the microblog and continue to post new updates multiple times during the day.
+
+Your task: identify the bug in the application and resolve the bug.  In order to do this, you should think about this as a multi-step process:
+
+1. Using a local copy of the microblog, try to reproduce the issue reported by the users to verify that the bug reports are valid.  
+2. Once you are able to reproduce the issue, you should focus on localizing the bug: using the techniques discussed in the lecture components on code archaeology, try to identify where the application is going wrong.  You may find it useful to write a regression test that can be used to reproduce the issue, so you do not have to do this step manually.
+3. Once you have identified the bug, apply your fix and verify that the fix resolves the issue.
+
 # Installation Instructions
 
 ## Prerequisites 
