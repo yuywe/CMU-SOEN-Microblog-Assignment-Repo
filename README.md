@@ -1,3 +1,39 @@
+# Microblog: Feature Implementation
+
+_This assignment matches up with the final assessment in Module 3 on feature implementation.  The students will implement the features required by the two smaller user stories._
+
+## Learning Goals
+
+The learning goals of this assignment are:
+
+1. Implement features in an existing real-world, open-source application from a user story.
+
+2. Analyze and revise previous estimates based on increased domain knowledge.
+
+## Overview
+
+Now it's time to get to work!  In this assignment, we are going to have you actually implement new features in the microblogging application. 
+
+For this task, we are going to have you implement the two smaller features mentioned in the previous assignments.
+
+The user stories for those features are the following:
+
+1. As a user of the microblog, in order to allow me to change my personal e-mail address, I should be able to update my e-mail address on the profile editing page of the microblog.
+
+2. As a user of the microblog, in order to allow me to login faster, I should be able to login with my e-mail address or my username.
+
+With these user stories, we want you to first come up with an estimate for how long you think these tasks will take.  Then, we want you to actually implement these stories.  Lastly, we want you to compare the time it took to actually implement the features back to your initial estimate.
+
+### Tips
+
+Here are some tips for implementing these features:
+
+1. You may find it useful to start your work by identifying how the existing features work (e.g., login, e-mail addresses) before trying to make your modifications.  When doing this, think back to the code archaeology techniques we discussed earlier this module.
+
+2. We encourage you to think early and often about how you will validate your changes either through manual or automated testing.  Automated testing is a useful investment early on if you expect to run your tests often.
+
+3. Any input from the user should be validated to ensure it's properly formatted.
+
 # Installation Instructions
 
 ## Prerequisites 
