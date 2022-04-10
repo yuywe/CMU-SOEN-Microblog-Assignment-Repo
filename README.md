@@ -34,6 +34,8 @@ Here are some tips for implementing these features:
 
 3. Any input from the user should be validated to ensure it's properly formatted.
 
+4. For the error message for an invalid email, make sure the error message is "Please format your email address correctly.", otherwise your test will not pass.
+
 # Installation Instructions
 
 ## Prerequisites 
