@@ -1,3 +1,34 @@
+# Microblog: Static Analysis
+
+_This assignment matches up with the final assessment in Module 6 on quality assurance and testing._
+
+## Learning Goals
+
+The learning goals of this assignment are:
+
+1. Apply a static analysis tool on a real-world open-source code base in order to detect bugs and code smells.
+
+2. Identify false positive results in the analysis, if present.
+
+3. Evaluate a particular static analysis tool on a real-world open-source code base.
+
+## Overview
+
+As discussed in this module, automated static and dynamic analysis are useful techniques for ensuring high code quality when delivering software at scale.  In this assignment, we are going to look at one particular static analysis tool and how it operates on the microblogging platform.
+
+The tool we are going to use for this assignment is [Flake8](https://flake8.pycqa.org/en/latest/), a tool for enforcing a style guide.  We recommend that you review the tool's documentation at the link provided above.
+
+For this assignment, you should run Flake8 on a copy of the microblog.  Flake8 will detect a number of issues that will need to be resolved in the application, and you'll need to either ignore any *false positives*, if they exist, and address the list of legitmate style violations.  You should not ignore any error that is not a false positive, and you should address all of the legitimate style violations.
+
+Once this is completed, you should write a reflection that answers the following questions:
+
+1. Did you find the warnings and errors produced by Flake8 relevant?  Why or why not?
+
+2. _Requirements:_ We have previously discussed auditing tools and the requrements that influence them.  For Lighthouse, this was the WAI-ARIA accessibility requirement.  What is it for Flake8?  Does it identify any other problems outside of that?
+
+3. Would you use this in your organization?  If so, why?  If not, why not? 
+
+
 # Installation Instructions
 
 ## Prerequisites 
