@@ -18,7 +18,9 @@ As discussed in this module, automated static and dynamic analysis are useful te
 
 The tool we are going to use for this assignment is [Flake8](https://flake8.pycqa.org/en/latest/), a tool for enforcing a style guide.  We recommend that you review the tool's documentation at the link provided above.
 
-For this assignment, you should run Flake8 on a copy of the microblog.  Flake8 will detect a number of issues that will need to be resolved in the application, and you'll need to either ignore any *false positives*, if they exist, and address the list of legitmate style violations.  You should not ignore any error that is not a false positive, and you should address all of the legitimate style violations.
+For this assignment, you should run Flake8 on a copy of the microblog (on the app folder in particular).  Flake8 will detect a number of issues that will need to be resolved in the application, and you'll need to either ignore any *false positives*, if they exist, and address the list of legitmate style violations.  You should not ignore any error that is not a false positive, and you should address all of the legitimate style violations.
+
+**NOTE** running flake8 will produce some false positives.  Some of these false positives will have a very noticeable pattern (i.e. they might all occur in a similar type of file...).  However, to get full points, you cannot have any output from running flake8 on the app folder.  To deal with this, you might want to look into using a .flake8 folder with a per-file-ignores section.  See the documentation [here](https://flake8.pycqa.org/en/latest/user/options.html?highlight=per-file-ignores#cmdoption-flake8-per-file-ignores) for an example of what this could look like.  You may need to do some more research on your own to figure out exactly what you need.
 
 Once this is completed, you should write a reflection that answers the following questions:
 
