@@ -1,3 +1,21 @@
+# Overview
+
+You and your team have ultimately decided that a microservice architecture is the architectural choice of the future for the microblogging platform.  To begin your foray into microservices, you decide that the proper route forward is to take a single piece of functionality and break it out into its own service. You think a good place to start is a feature that you've spent some time working on already during this course: the image service for handling user profile photos and images attached to their posts on the platform.
+
+After you and your team build the image service and integrate it with the rest of the application, you suddenly realize: wait, what's going to happen when the image service is offline?  Will the whole application be broken?
+
+You decide you need to do some resilience testing.
+
+## Part 1: Testing
+
+Students should start by first examining the code that is used to communicate between the microblog and the image service and determine what they first *believe* will happen when the image service is down.  Then, students should test this through either automated and manual testing to verify their assumptions.
+
+## Part 2: Adaptation
+
+The project manager for the image service decides that the failure of the image service should not bring the entire site down.  Therefore, they want the system to implement some sort of fallback behavior where, if the image from the image service is unavailable, it will default to using the Gravatar image instead.  
+
+Students should adapt the code to implement this behavior and verify this through testing.
+
 # Installation Instructions
 
 ## Prerequisites 
