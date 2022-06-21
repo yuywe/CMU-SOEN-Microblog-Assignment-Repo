@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Installation Instructions
 
 ## Prerequisites 
@@ -53,3 +54,18 @@ python3 -m flask run
 4. Log into your GitHub account (if you have not done so already)
 5. Select your repository for this class, likely the _CMU-SOEN-Microblog-Assignemnt-Repo_, under the _Repository_ drop down, and under the _Branch_ drop down select _module1-lighthouse_ branch
 6. Click upload and wait for the results of the autograder
+=======
+# Microblog Repository
+
+Welcome to the Microblog repository!  This repository is organized as follows: there are 7 branches
+- module1-lighthouse
+- module2-bug-fixes
+- module3-new-features
+- module6-static-analysis
+- module7-ml
+- module8-resilience
+- toy-assignment
+Each branch corresponds to one Microblog assignment (module 10's assignment is in a different repository).
+
+For instructions on how to work with this repository, please see this tutorial on how to work with GitHub INSERT LINK HERE.
+>>>>>>> 115c80631b916ed41feefa7e69094f8daed747d2
